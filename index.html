@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400,300' rel='stylesheet' type='text/css'>
     <title>The_Grits Programming</title>
     <style>
+      a {
+        color: #2155A3;
+        text-decoration: none;
+      }
       body {
         margin: 0;
         background-color: #3385FF;
@@ -17,10 +21,9 @@
         margin: 0;
       }
       
-      #header {
+      #header_1, #header_2 {
         margin: 0;
         padding: 0;
-        height: 90px;
         width: auto;
         background-color: #FFFFFF;
         font-family: 'Open Sans', sans-serif;
@@ -29,14 +32,38 @@
         color: #3385FF;
       }
       
+      #header_1 {
+        height: 110px;
+      }
+      
+      #header_2 {
+        height: 110px;
+      }
+      
+      #footer {
+        font-size: 20px;
+      }
+      
     </style>
   </head>
   <body>
-    <div id="header"><p id="header_text">The_Grits</p></div>
+    <div id="header_1"><h2 id="header_text">The_Grits</h2></div>
     <div id="body_1">
       <p>Welcome! I'm The_Grits, and I'm a Canadian student who loves programming.</p>
       <br/>
-      <p>I use HTML/CSS, JavaScript, Python, Java, and Scratch to make my ideas become reality.</p>
+      <p>I use HTML/CSS, JavaScript, Python, Java, and Scratch to make my ideas come true.</p>
+      <p>I also enjoy making my own Chrome extensions and Android apps.</p>
+    </div>
+    <div id="header_2">
+      <h3>My Work</h3>
+    </div>
+    <div id="body_2">
+      <p>I'm the creator of the Quick Convert and Scratch Messenger Chrome extensions.</p>
+      <p>I am in the process of making Android apps, so stay tuned to see if I release any!</p>
+    </div>
+    <div id="footer">
+      <p><a href="https://www.codecademy.com/The_Grits">Codecademy</a> - <a href="https://github.com/TheGrits/">Github</a> - <a href="https://plus.google.com/+GritsProgramming/">Google+</a> - <a href="https://scratch.mit.edu/users/The_Grits/">Scratch</a> - <a href="https://stackoverflow.com/users/5393970/the-grits">Stack Overflow</a></p>
+      <p>This site was heavily inspired by <a href="http://pulljosh.github.io">PullJosh's Website</a></p>
     </div>
   </body>
 </html>
